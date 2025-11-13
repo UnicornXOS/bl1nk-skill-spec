@@ -30,7 +30,6 @@ bl1nk-skill-spec/
          ├─ SKILL.md
          └─ README.md
 ```
----
 
 ## Meta-skill specification in SKILL.md
 
