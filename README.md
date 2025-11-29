@@ -1,1 +1,1 @@
-# obsidian-theme-BLinkOS
+# bl1nk-skill-spec
