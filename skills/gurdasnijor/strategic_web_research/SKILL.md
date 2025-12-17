@@ -1,4 +1,3 @@
-
 # Strategic Web Research
 
 Get comprehensive, well-planned research results by combining strategic thinking with neural search. The skill breaks down complex queries, searches intelligently, and synthesizes findings.
