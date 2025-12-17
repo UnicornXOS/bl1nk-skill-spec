@@ -1,0 +1,58 @@
+  [build-system]
+  requires = ["setuptools>=45", "wheel"]
+  build-backend = "setuptools.build_meta"
+
+  [project]
+  name = "bl1nk-mmg"
+  version = "1.0.0"
+  description = "Markmap Mindmap Generator - Create beautiful mindmaps from templates"
+  readme = "README.md"
+  requires-python = ">=3.8"
+  license = {text = "MIT"}
+  authors = [
+      {name = "bl1nk-team", email = "team@bl1nk.site"}
+  ]
+  keywords = ["mindmap", "markmap", "generator", "template"]
+  classifiers = [
+      "Development Status :: 4 - Beta",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3",
+      "Programming Language :: Python :: 3.8",
+      "Programming Language :: Python :: 3.9",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.11",
+  ]
+
+  dependencies = [
+      "pyyaml>=6.0",
+      "click>=8.0",
+  ]
+
+  [project.optional-dependencies]
+  dev = [
+      "pytest>=7.0",
+      "black>=22.0",
+      "flake8>=4.0",
+  ]
+
+  [project.scripts]
+  mmg = "mmg.cli:main"
+
+  [tool.setuptools]
+  packages = ["mmg"]
+
+  [tool.setuptools.package-data]
+  mmg = [
+      "templates/*.yaml",
+      "assets/*.js",
+      "assets/*.css",
+  ]
+
+  [tool.black]
+  line-length = 100
+  target-version = ['py38']
+
+  [tool.pytest.ini_options]
+  testpaths = ["tests"]
+  python_files = "test_*.py"

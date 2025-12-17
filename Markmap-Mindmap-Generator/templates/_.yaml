@@ -1,0 +1,138 @@
+  # ===== novel.yaml =====
+  title: Novel Story Structure
+  sections:
+    - title: Act I - Setup
+      items:
+        - Introduce protagonist
+        - Establish setting
+        - Present inciting incident
+    - title: Act II - Confrontation
+      items:
+        - Rising action
+        - Complications
+        - Midpoint revelation
+    - title: Act III - Resolution
+      items:
+        - Climax
+        - Falling action
+        - Resolution
+
+  ---
+  # ===== system_arch.yaml =====
+  title: System Architecture
+  sections:
+    - title: Frontend
+      items:
+        - UI Components
+        - State Management
+        - API Integration
+    - title: Backend
+      items:
+        - REST API
+        - Database
+        - Authentication
+    - title: Infrastructure
+      items:
+        - Deployment
+        - Monitoring
+        - Scaling
+
+  ---
+  # ===== exec_report.yaml =====
+  title: Executive Report
+  sections:
+    - title: Executive Summary
+      items:
+        - Key findings
+        - Recommendations
+        - Impact
+    - title: Business Overview
+      items:
+        - Market analysis
+        - Competitors
+        - Opportunities
+    - title: Financial Summary
+      items:
+        - Revenue
+        - Expenses
+        - Profit margin
+
+  ---
+  # ===== tech_report.yaml =====
+  title: Technical Report
+  sections:
+    - title: Introduction
+      items:
+        - Problem statement
+        - Objectives
+        - Scope
+    - title: Methodology
+      items:
+        - Research approach
+        - Tools used
+        - Data collection
+    - title: Results & Analysis
+      items:
+        - Findings
+        - Performance metrics
+        - Comparisons
+
+  ---
+  # ===== ai_skill.yaml =====
+  title: AI Skills Map
+  sections:
+    - title: Machine Learning
+      items:
+        - Supervised Learning
+        - Unsupervised Learning
+        - Reinforcement Learning
+    - title: Deep Learning
+      items:
+        - Neural Networks
+        - CNNs
+        - RNNs & Transformers
+    - title: NLP
+      items:
+        - Text Processing
+        - Language Models
+        - Sentiment Analysis
+
+  ---
+  # ===== planning.yaml =====
+  title: Project Planning
+  sections:
+    - title: Scope
+      items:
+        - Objectives
+        - Deliverables
+        - Constraints
+    - title: Timeline
+      items:
+        - Phase 1
+        - Phase 2
+        - Phase 3
+    - title: Resources
+      items:
+        - Team
+        - Budget
+        - Tools
+
+  ---
+  # ===== strategy.yaml =====
+  title: Business Strategy
+  sections:
+    - title: Vision & Mission
+      items:
+        - Long-term vision
+        - Mission statement
+        - Core values
+    - title: Strategic Goals
+      items:
+        - Growth targets
+        - Market expansion
+        - Innovation
+    - title: Action Plan
+      items:
+        - Initiatives
+        - Milestones
+        - KPIs
